@@ -18,12 +18,14 @@ Mi nombre es Mafer y soy estudiante en Amerike, actualmente estudio la carrera e
 
 Vivo con mis papás, hermano y dos perritas, tengo buena relación con ellos y casi no paso tiempo en casa gracias a que trabajo y estudio. Actualmente llevo con mi novia un año y medio, tengo pocos amigos ya que soy una persona bastante introvertida, me gusta pasar tiempo a solas o en compañia de conocidos, familia o pareja. Algunos de mis hobbies son jugar videojuegos, hacer deporte, ver películas y pasar tiempo con mis seres queridos.
 
-[Regresar 😁​](#índice)
+[Índice 😁​](#índice-📍​)
+[Inicio 🏠​](./README.md)
 
 ## Carrera profesional y aspiraciones 💡​
 Cuando salí de la preparatoria decidí que queriá estudiar animación en una universidad llamada SAE Institute, la disfrutaba mucho pero por cuestiones económicas tuve que ponerle pausa y después de un tiempo es que encontré otra de mis pasiones que fue programar y es por eso que escogí esta carrera ya que me gusta mucho todo el tema de desarrollo de software incluyendo aplicaciones, web, etc pero también otros de mis intereses es todo lo que tiene que ver con sistemas computacionales más generales como bases de datos, electrónica, etc. En un futuro me gustaría dedicarme a trabajar en alguna empresa como **desarrollador full-stack** o profundizar más en **ciencia de datos**, además también me gustaría trabajar en KeyWord Studios como desarrolladora y si me es posible llegar a trabajar en una empresa grande como _Google_ o _Microsoft_.
 
-[Regresar 😁​](#índice)
+[Índice 😁​](#índice-📍​)
+[Inicio 🏠​](./README.md)
 
 
 ## Pasatiempos 🎮​
@@ -31,7 +33,8 @@ Casi no tengo tiempo para tener muchos pasatiempos, antes jugaba fútbol por las
 
 Actualmente en mis ratos libres suelo ver series o películas, usualmente con mi novia pero también con mi familia y jugar videojuegos, ya sea sola o con amigos. A veces cuando descanso suelo dormir mucho o pasar tiempo con mis perritas paseándolas para tener un poco de actividad física. Me gusta mucho también visitar a mis abuelos y pasar tiempo de calidad con ellos ya que son como mis segundos papás, además de esta manera también me puedo relajar y sentir una pequeña pausa de toda la rutina que llevo día a día.
 
-[Regresar 😁​](#índice)
+[Índice 😁​](#índice-📍​)
+[Inicio 🏠​](./README.md)
 
 
 ## Datos de Contacto 💻​
@@ -51,4 +54,5 @@ _LinkedIn_
 - [Mafer Vásquez](https://www.linkedin.com/in/mafer-vasquez-694ab12a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
-[Inicio 🏠​](#índice)
+[Índice 😁​](#índice-📍​)
+[Inicio 🏠​](./README.md)
