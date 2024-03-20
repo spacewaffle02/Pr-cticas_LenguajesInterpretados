@@ -7,3 +7,7 @@
 ## [Práctica 5](./práctica_5.md)
 
 ## [Práctica 6](https://github.com/spacewaffle02/Pr-ctica6.git)
+
+## [Perfil GitHub](https://github.com/MaferVAG/MaferVAG.git)
+
+## [Página Web](https://mafervag.github.io/MaferVAG/)
