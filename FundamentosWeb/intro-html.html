@@ -13,13 +13,170 @@
 
 </head>
 <body>
-  <h1>Hola Mundo!!!</h1>
+  <h1 id="inicio">Introducción a HTML </h1>
+  <h2>Mafer Vásquez </h2>
 
   <!-- Esto es un comentario desde HTML -->
 
   <p>Hola Mundo desde HTML</p>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perferendis, eum minima error facere illo temporibus beatae. Consequatur, eos rem fugit quibusdam cum sequi explicabo odit molestiae quisquam odio porro.</p>
+  <p>En este documento iremos revisando las etiquetas HTML m[as utilizadas en el desarrollo web. </p>
+  <hr /> <!-- ESTA ES PARA MARCAR UNA LÍNEA DIVISORA -->
+
+  <ul>
+    <li><a href="#encabezados">Encabezados</a></li>
+    <li><a href="#etiquetas">Etiquetas de texto</a></li>
+    <li><a href="#listas">Listas</a></li>
+    <li><a href="#tablas">Tablas</a></li>
+    <li><a href="#enlaces">Enlaces</a></li>
+    <li><a href=""></a></li>
+  </ul>
+  
+  <h2 id="encabezados">Encabezados</h2>
+  <h1>Encabezado nivel 1</h1>
+  <h2>Encabezado nivel 2</h2>
+  <h3>Encabezado nivel 3</h3>
+  <h4>Encabezado nivel 4</h4>
+  <h5>Encabezado nivel 5</h5>
+  <h6>Encabezado nivel 6</h6>
+  <a href="#inicio">Regresar al inicio </a>
+  <hr />
+
+  <h2 id="etiquetas">Etiquetas de texto</h2>
+  <p>
+    Este es un párrafo.
+    <b>Este es un texto en negritas.</b>
+    <br /> <!-- Esto es para crear un salto de línea -->
+    <i>Este es un texto en cursiva.</i>
+    <br />
+    <mark>Este es un texto remarcado.</mark>
+    <br />
+    <u>Este es un texto subrayado.</u> 
+    <br />
+    <small>Este texto está en letras pequeñas.</small>
+  </p>
+
+  <p>La formula del agua es H <sub>2</sub><!-- SUB es para marcar un numero o texto mas abajo -->O.</p>
+
+  <p>La formula de la relatividad introducida por Einstein es e=mc <sup>2</sup> <!--  SUP es para marcar que el numero o alfo este en la parte superior --></p>
+
+  <blockquote> <!-- Para crear una cita -->
+    "Yo solo se que no se nada"
+    <br />
+    <cite>Sócrates </cite> <!-- Marcar de quien es la cita -->
+  </blockquote>
+  <a href="#inicio">Regresar al inicio </a>
+  <hr />
+
+  <h2 id="listas">Listas</h2>
+  <p>
+    En HTML tenemos 2 tipos de listas.
+  </p>
+  <h3>Listas Desordenadas</h3>
+  <ul>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+
+  <h3>Listas ordenadas </h3>
+
+  <ol type="A"> <!-- CON EL TYPE A HACEMOS QUE LA LISTA VAYA CON LETRAS -->
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+
+  <ol>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+
+  <ol start="100"><!-- PUEDES PROVOCAR QUE INICIE DESDE EL NÚMERO QUE DESEES -->
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+
+  <ol reversed> <!-- CAMBIAS EL ORDEN DE LA LISTA PARA QUE COMIENCE AL REVÉS -->
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+
+  <h3>Listas Anidadas</h3>
+  <ul>
+    <li>Primavera</li>
+    <ol>
+      <li>Abril</li>
+      <li>Mayo</li>
+      <li>Junio</li>
+    </ol>
+    <li>Verano</li>
+    <ol>
+      <li>Julio</li>
+      <li>Agosto</li>
+      <li>Septiembre</li>
+    </ol>
+    <li>Otoño</li>
+    <ol>
+      <li>Octubre</li>
+      <li>Noviembre</li>
+      <li>Diciembre</li>
+    </ol>
+    <li>Invierno</li>
+    <ol>
+      <li>Enero</li>
+      <li>Febrero</li>
+      <li>Marzo</li>
+    </ol>
+  </ul>
+  <a href="#inicio">Regresar al inicio </a>
+  <hr />
+  
+  <h2 id="tablas">Tablas</h2>
+  <table border="1">
+  <tr>
+    <th>Ciudad</th> <!-- TH ES PARA HACER NEGRITAS LAS LETRAS DE LAS TABLAS -->
+    <th>País</th>
+    <th>Continente</th>
+  </tr> 
+
+  <!-- si con el atajo tr>td* significa que estás indicando que haga una tabla de 3 -->
+
+  <tr>
+    <td>París</td>
+    <td>Francia</td>
+    <td>Europa</td>
+  </tr> 
+
+  <tr>
+    <td>CDMX</td>
+    <td>México</td>
+    <td>América</td>
+  </tr>
+  </table>
+  <a href="#inicio">Regresar al inicio </a>
+  <hr />
+
+  <h2 id="enlaces">Enlaces</h2>
+  <a href="otro.html">Ir al otro documento HTML</a> <br />
+
+  <a href="https://github.com/MaferVAG" target="_blank">Sitio de GitHub</a> <br /><!-- TARGET SIRVE PARA QUE AL PRESIONAR EL URL SE ABRA UNA NUEVA PESTAÑA -->
+
+  <a href="mailito:fvag0702@gmail.com">fvag0702@gmail.com</a><br />
+
+  <a href="tel:5545122455">5545122455</a><br /><!-- ESTO EN CELULARES HARÁ QUE MARQUE DIRECTAMENTE AL TELEFONO -->
+
+  <a href="#inicio">Regresar al inicio </a><!-- ESTE TIPO DE ENLACE ES PARA HACERLO DENTRO DE LA MISMO DOCUMENTO HTML, SOLO DEBES AGREGAR UN ID A CADA UNA DE LAS SECCIONES -->
+
+  <img src="./imgs/a745d490ae6782b87ede7ceed74835eb.jpg" alt="Gatito feli">
 </body>
 <script src="js/intro-js.js"></script>
 </html>
