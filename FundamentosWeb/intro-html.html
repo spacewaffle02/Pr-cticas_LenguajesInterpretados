@@ -13,6 +13,8 @@
 
 </head>
 <body>
+
+  <header>
   <h1 id="inicio">Introducción a HTML </h1>
   <h2>Mafer Vásquez </h2>
 
@@ -20,18 +22,26 @@
 
   <p>Hola Mundo desde HTML</p>
 
-  <p>En este documento iremos revisando las etiquetas HTML m[as utilizadas en el desarrollo web. </p>
+  <p>En este documento iremos revisando las etiquetas HTML más utilizadas en el desarrollo web. </p>
   <hr /> <!-- ESTA ES PARA MARCAR UNA LÍNEA DIVISORA -->
+  </header>
 
+  <nav>
   <ul>
     <li><a href="#encabezados">Encabezados</a></li>
     <li><a href="#etiquetas">Etiquetas de texto</a></li>
     <li><a href="#listas">Listas</a></li>
     <li><a href="#tablas">Tablas</a></li>
     <li><a href="#enlaces">Enlaces</a></li>
+    <li><a href="#imagenes">Imágenes</a></li>
+    <li><a href="#audioyvideo">Audio y Video</a></li>
+    <li><a href="#etiquetasSemanticas">Etiquetas Semánticas</a></li>
+    <li><a href="#detalles">Detalles</a></li>
     <li><a href=""></a></li>
   </ul>
+  </nav>
   
+  <section>
   <h2 id="encabezados">Encabezados</h2>
   <h1>Encabezado nivel 1</h1>
   <h2>Encabezado nivel 2</h2>
@@ -41,7 +51,9 @@
   <h6>Encabezado nivel 6</h6>
   <a href="#inicio">Regresar al inicio </a>
   <hr />
+  </section>
 
+  <section>
   <h2 id="etiquetas">Etiquetas de texto</h2>
   <p>
     Este es un párrafo.
@@ -67,7 +79,9 @@
   </blockquote>
   <a href="#inicio">Regresar al inicio </a>
   <hr />
+  </section>
 
+  <section>
   <h2 id="listas">Listas</h2>
   <p>
     En HTML tenemos 2 tipos de listas.
@@ -139,7 +153,9 @@
   </ul>
   <a href="#inicio">Regresar al inicio </a>
   <hr />
+  </section>
   
+  <section>
   <h2 id="tablas">Tablas</h2>
   <table border="1">
   <tr>
@@ -164,7 +180,9 @@
   </table>
   <a href="#inicio">Regresar al inicio </a>
   <hr />
+  </section>
 
+  <section>
   <h2 id="enlaces">Enlaces</h2>
   <a href="otro.html">Ir al otro documento HTML</a> <br />
 
@@ -175,8 +193,67 @@
   <a href="tel:5545122455">5545122455</a><br /><!-- ESTO EN CELULARES HARÁ QUE MARQUE DIRECTAMENTE AL TELEFONO -->
 
   <a href="#inicio">Regresar al inicio </a><!-- ESTE TIPO DE ENLACE ES PARA HACERLO DENTRO DE LA MISMO DOCUMENTO HTML, SOLO DEBES AGREGAR UN ID A CADA UNA DE LAS SECCIONES -->
+  <hr />
+  </section>
 
-  <img src="./imgs/a745d490ae6782b87ede7ceed74835eb.jpg" alt="Gatito feli">
+  <section>
+  <h2 id="imagenes">Imágenes</h2>
+  <img src="./imgs/a745d490ae6782b87ede7ceed74835eb.jpg" alt="Gatito feli"> <br />
+  <a href="#inicio">Regresar al inicio </a>
+  <hr />
+  </section>
+
+  <section>
+  <h2 id="audioyvideo">Audio y Video</h2>
+  <audio src="./audios/Y2meta.app - LATIN MAFIA, Humbe - Patadas de Ahogado (320 kbps).mp3" controls preload></audio> <br />
+
+  <video src="./videos/Y2meta.app-LATIN MAFIA, Humbe - Patadas de Ahogado-(1080p).mp4" 
+  poster="./imgs/patadas_ahogado.jpeg"
+  controls preload></video><br />
+
+  <a href="#inicio">Regresar al inicio </a> <br />
+  <hr />
+  </section>
+
+  <section>
+  <h2 id="iframe">Iframe</h2>
+  <!-- Permite cargar contenido externo que se encuentre en otro sitio o plataforma, por ejemplo un video de YouTube, un mapa de Google, Documentos PDFs, etc. -->
+  <iframe width="100%" height="600px" src="files/Syllabus_2024_2_ProgramacionLenguajesInterpretados (1).pdf"></iframe> <br />
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-qvYXZOUImo?si=LrgPy9lFbiMatAMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br />
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.8312301278866!2d-99.15897832538441!3d19.3764590424726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff82b342aee3%3A0x93244993291fd0cc!2sUniversidad%20Amerike%20Campus%20CDMX!5e0!3m2!1ses!2smx!4v1713284330914!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br />
+
+  <a href="#inicio">Regresar al inicio</a><br />
+  <hr />
+  </section>
+
+  <section>
+  <h2 id="etiquetasSemanticas">Etiquetas Semánticas</h2>
+
+  <a href="#inicio">Regresar al inicio</a><br />
+  </section>
+
+  <section>
+    <h2 id="detalles">Detalles</h2>
+    <details open>
+      <summary>Resumen del Detalle</summary>
+      <div>
+        <p>
+          Este detalle tiene el atributo <b><i>open</i></b
+          >, por lo que comienza abierto al cargar el documento.
+        </p>
+        <img src="imgs/a745d490ae6782b87ede7ceed74835eb.jpg" alt="This is Fine" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quasi
+          quo! Autem, mollitia voluptate necessitatibus optio quam, nisi dolorum
+          ducimus magni unde illum perspiciatis soluta ipsa vitae fuga inventore
+          reprehenderit!
+        </p>
+      </div>
+    </details>
+    <a href="#inicio">Regresar al inicio</a><br />
+  </section>
 </body>
 <script src="js/intro-js.js"></script>
 </html>
