@@ -3,3 +3,84 @@ html {
   background-color: #ccc;
   scroll-behavior: smooth;
 }
+
+body{
+
+}
+
+img, video{
+  max-width: 100%;
+}
+
+/* SELECTOR DE ETIQUETAS: A CUUALQUIER ETIQUETA HTML */
+p{
+  color: black;
+}
+
+/* SELECTOR DE IDENTIFICADOR: CUALQUIER ETIQUETA HTML CON EL ATRIBUTO "ID" */
+#menu{
+  color: purple;
+  background-color: violet;
+}
+
+/* SELECTOR DE CLASES: CUALQUIER ETIQUETA HTML QUE TIENE ASIGNADO UN ATRIBUTO "CLASS"  */
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-16{
+  font-size: 16px;
+}
+
+.fs-12{
+  font-size: 12px;
+}
+
+.bg-orange{
+  background-color: orange;
+}
+
+.bg-olive{
+  background-color: olive;
+}
+
+.bg-pink
+{
+  background-color: pink;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-chocolate{
+  color: chocolate;
+}
+
+.text-red{
+  color: red;
+}
+
+.text-gold{
+  color: gold;
+}
+
+.rounded{
+  border-radius: 100%;
+}
+
+.sepia{
+  filter: sepia(1);
+}
+
+.gray-scale{
+  filter: grayscale(1);
+}
