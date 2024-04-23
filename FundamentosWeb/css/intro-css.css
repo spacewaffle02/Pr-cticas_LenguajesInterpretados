@@ -1,4 +1,5 @@
 /* Este es un comentarioooo */
+
 html {
   background-color: #ccc;
   scroll-behavior: smooth;
@@ -7,6 +8,11 @@ html {
 body{
 
 }
+
+a {
+  color: mediumslateblue;
+}
+
 
 img, video{
   max-width: 100%;
@@ -84,3 +90,35 @@ p{
 .gray-scale{
   filter: grayscale(1);
 }
+
+/* HOVER ES CUANDO PONES EL MOUSE ENCIMA */
+/* PSEUDOCLASES */
+#dogP:hover{
+  border-radius: 5 rem;
+  border: 5px solid white;
+  filter: blur(1 rem);
+  transform: rotate(360deg) scale(2) translate(175px, -100px);
+}
+
+#estaciones li:first-child {
+  color:blueviolet;
+}
+
+#estaciones li:last-child {
+  color:deepskyblue;
+}
+
+#estaciones li:nth-child(3){
+  color: deeppink;
+}
+
+
+/* PONER UN ESTILO DE TEXTO DE INTERNET*/
+/* SE DEBE DE PONER TAMBIÉN LOS LINKS EN EL DOCUMENTO HTML ARRIBA DEL LINK DE LA HOJA DE ESTILOS */
+.jersey-font{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
