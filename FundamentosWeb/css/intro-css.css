@@ -1,12 +1,21 @@
 /* Este es un comentarioooo */
 
+/* PARA DECLARAR UNA VARIABLE LO HAREMOS DESDE ROOT */
+:root{
+  --primary-color: #f60;
+  --accent-color: #ffc;
+  --primary-font:
+}
+
 html {
   background-color: #ccc;
   scroll-behavior: smooth;
+
 }
 
 body{
-
+  /* ESTO ES LA DECLARACIÓN DE UNA VARIABLE */
+  color: var(--primary-color)
 }
 
 a {
